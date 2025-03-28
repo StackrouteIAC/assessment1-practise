@@ -1,4 +1,3 @@
-CREATE DATABASE myapp;
 USE myapp;
 
 CREATE TABLE customers (

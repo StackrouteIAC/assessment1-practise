@@ -13,6 +13,7 @@ spec:
   strategy: {}
   template:
     metadata:
+      name: mysql
       labels:
         app: mysql
     spec:

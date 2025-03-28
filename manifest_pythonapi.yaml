@@ -21,7 +21,7 @@ spec:
           image: docker.io/stackrouteiac/pythonapi:v1.2
           env:
             - name: MYSQL_HOSTNAME
-              value: mysql
+              value: mysql-service
             - name: MYSQL_PORT
               value: "3306"
             - name: MYSQL_USER

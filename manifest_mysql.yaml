@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: mysql
-          image: docker.io/stackrouteiac/mysql:v1.2
+          image: docker.io/stackrouteiac/mysql:v1.3
           env:
             - name: MYSQL_ROOT_PASSWORD
               value: rootpass

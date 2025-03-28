@@ -23,6 +23,8 @@ spec:
           env:
             - name: MYSQL_ROOT_PASSWORD
               value: rootpass
+            - name: MYSQL_DATABASE
+              value: myapp
             - name: MYSQL_USER
               value: user
             - name: MYSQL_PASSWORD

@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: pythonapi
-          image: docker.io/stackrouteiac/pythonapi:v1
+          image: docker.io/stackrouteiac/pythonapi:v1.1
           env:
             - name: MYSQL_HOSTNAME
               value: mysql

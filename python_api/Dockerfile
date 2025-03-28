@@ -12,6 +12,8 @@ RUN apt-get update && apt-get install -y \
     pkg-config \
     && rm -rf /var/lib/apt/lists/*
 
+COPY --chmod=a+x ./app.py /app.py 
+
 # Layer uvx
 COPY --from=ghcr.io/astral-sh/uv:0.6.9 /uv /uvx /bin/
 
